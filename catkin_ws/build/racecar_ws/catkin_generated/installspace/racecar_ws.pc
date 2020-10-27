@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/install
+
+Name: racecar_ws
+Description: Description of racecar_ws
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lracecar_ws
+Requires: message_runtime roscpp rospy sensor_msgs std_msgs
